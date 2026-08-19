@@ -10,6 +10,13 @@ The electromagnetic equations are reformulated in terms of transformed electric 
 
 The numerical equations are discretized using finite differences on a spatial grid and evolved explicitly in time using an FDTD scheme.
 
+
+## Example Simulation
+
+https://github.com/user-attachments/assets/27a1c0e1-ba29-4744-9094-6dd8c3ff7a61
+
+The animation below shows the evolution of the simulated fields during photon–axion conversion.
+
 ## Features
 
 - 1D FDTD solver for coupled electromagnetic and axion fields
@@ -54,12 +61,6 @@ $$
 $$
 
 The 1D and 2D implementations use NumPy arrays for the field variables and Numba JIT compilation to accelerate the computationally intensive grid-update loops.
-
-## Example Simulation
-
-<!-- Add your video here -->
-
-The animation below shows the evolution of the simulated fields during photon–axion conversion.
 
 ## Technologies
 
